@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <div class="control-buttons">
+        <span>Start Game</span>
+    </div> -->
+    <div class="con">
+
+        <div class="info-container">
+            <div class="name">
+                Hello: <span></span>
+            </div>
+            <div class="tries">
+                Wrong Tries: <span>0</span>
+            </div>
+        </div>
+        
+        <div class="memory-game-blocks">
+            <div class="game-block" data-technology="apple">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/apple-logo-204.png" alt="">
+                </div>
+            </div>
+            <div class="game-block is-flipped" data-technology="apple">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/apple-logo-204.png" alt="">
+                </div>
+            </div>
+        
+            <div class="game-block" data-technology="github">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/github-logo-204.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-technology="github">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/github-logo-204.png" alt="">
+                </div>
+            </div>
+        
+            <div class="game-block" data-technology="linkedin">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/linkedin-square-logo-204.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-technology="linkedin">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/linkedin-square-logo-204.png" alt="">
+                </div>
+            </div>
+        
+            <div class="game-block" data-technology="meta">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/meta-logo-204.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-technology="meta">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/meta-logo-204.png" alt="">
+                </div>
+            </div>
+        
+            <div class="game-block" data-technology="telegram">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/telegram-logo-204.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-technology="telegram">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/telegram-logo-204.png" alt="">
+                </div>
+            </div>
+        
+            <div class="game-block" data-technology="unity">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/unity-logo-204.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-technology="unity">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/unity-logo-204.png" alt="">
+                </div>
+            </div>
+        
+            <div class="game-block" data-technology="whatsapp">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/whatsapp-logo-204.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-technology="whatsapp">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/whatsapp-logo-204.png" alt="">
+                </div>
+            </div>
+        
+            <div class="game-block" data-technology="youtube">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/youtube-logo-204.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-technology="youtube">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/youtube-logo-204.png" alt="">
+                </div>
+            </div>
+        
+            <div class="game-block" data-technology="angular">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/angular-logo-204.png" alt="">
+                </div>
+            </div>
+            <div class="game-block is-flipped" data-technology="angular">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/angular-logo-204.png" alt="">
+                </div>
+            </div>
+        
+            <div class="game-block" data-technology="react">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/react-logo-204.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-technology="react">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img decoding="async" src="images/react-logo-204.png" alt="">
+                </div>
+            </div>
+        
+        </div>
+        
+        <audio id="success" src="audio/success-1-6297.mp3" preload="auto"></audio>
+        <audio id="fail" src="audio/error-10-206498.mp3" preload="auto"></audio>
+
+    </div>
+
+    
+    <script src="main.js"></script>
+
+</body>
+
+</html>
